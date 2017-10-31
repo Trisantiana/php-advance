@@ -597,3 +597,24 @@ echo $LaptopBaru->tekanEnter();
 
 Interface lebih berperan untuk menyeragamkan method. Ia tidak masuk kedalam struktur class seperti abstract class. Jika kita menggunakan abstract class komputer sebagai ‘konsep class’ untuk kemudian diturunkan kepada class lain seperti class laptop, class pc, dan class netbook, maka interface hanya ‘penyedia method’. Interface tidak termasuk kedalam pewarisan class.
 
+
+# FInal Keyword
+
+Final class adalah class yang tidak bisa diwarisi (inheritance) oleh class lain. Dengan kata lain class ini merupakan end-class yang tidak bisa diturunkan kepada class lain. Dan jika kita mencoba membuat class dengan inherit kepada final class akan muncul error.
+Selain final class, dikenal juga final method, artinya kita tidak bisa menimpa sebuah final method yang ada pada class induk melalui class anak. Dengan begitu kita tidak bisa mendefinisikan ulang final class yang ada pada class induk di class anak.
+
+#### Contoh Pembuatan Final Class
+Untuk membuat final class kita cukup menaruh keyword "final" sebelum keyword class.
+```php
+final class nama_class {
+   //... isi class
+}
+```
+
+#### Contoh Pembuatan Final Method
+Untuk membuat final method kita cukup menaruh keyword "final" sebelum keyword public function.
+```php
+final public function nama_method(){
+   //... isi method
+}
+```

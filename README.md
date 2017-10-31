@@ -617,7 +617,7 @@ final class Induk
 {  
       public function Test() 
       {  
-           return "Display Test Pada Induk";  
+           return "Test Final Class";  
       }  
 }  
 
@@ -641,7 +641,7 @@ final public function nama_method()
  {  
       final public function Test() 
       {  
-           return "Display Test Pada Induk";  
+           return "Test Final Method";  
       }  
  }  
 

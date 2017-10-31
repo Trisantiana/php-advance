@@ -618,3 +618,5 @@ final public function nama_method(){
    //... isi method
 }
 ```
+
+Jadi, Final keyword tidak bisa digunakan untuk class turunan. Apabila digunakan untuk class turunan pasti akan muncul fatal error.
